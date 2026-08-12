@@ -3,7 +3,6 @@ const inputEl = document.getElementById("input-el");
 const ulEl = document.getElementById("ul-el");
 let myLeads = [];
 
-
 inputbtn.addEventListener("click", function(){
     myLeads.push(inputEl.value);
     inputEl.value="";
